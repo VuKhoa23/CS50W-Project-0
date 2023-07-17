@@ -1,0 +1,110 @@
+/* General */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --background: #202124;
+  --light-background: rgb(47, 48, 50);
+}
+
+body {
+  background-color: var(--background);
+  font-size: 10px;
+}
+
+/* End general */
+
+#main-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  margin: auto;
+  align-items: center;
+  top: 14.25rem;
+  height: 12.25rem;
+  justify-content: space-between;
+}
+
+#form-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 5rem;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.google-logo {
+  width: 20rem;
+}
+
+#input-text {
+  width: 100%;
+  height: 2.5rem;
+  border: 1px solid wheat;
+  background-color: var(--background);
+  border-radius: 1rem;
+  color: white;
+  padding: 1rem;
+}
+
+#input-text:hover,
+#input-text:focus {
+  background-color: var(--light-background);
+}
+
+#search-button-container {
+  width: 18rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-button {
+  height: 2rem;
+  background-color: var(--light-background);
+  color: white;
+  border-radius: 0.5rem;
+  border-style: none;
+}
+
+.search-button:hover {
+  border: 1px solid white;
+}
+
+#header {
+  display: flex;
+  width: 15rem;
+  justify-content: space-around;
+  position: absolute;
+  right: 0;
+  font-size: 1rem;
+  color: white;
+}
+
+#header a:hover {
+  text-decoration: underline;
+}
