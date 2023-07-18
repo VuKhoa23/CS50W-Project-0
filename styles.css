@@ -32,6 +32,8 @@ a {
 body {
   background-color: var(--background);
   font-size: 10px;
+  font-family: arial, sans-serif;
+  color: white;
 }
 
 /* End general */
@@ -43,7 +45,7 @@ body {
   width: 30rem;
   margin: auto;
   align-items: center;
-  top: 14.25rem;
+  top: 10rem;
   height: 12.25rem;
   justify-content: space-between;
 }
@@ -97,7 +99,7 @@ body {
 
 #header {
   display: flex;
-  width: 15rem;
+  width: 19rem;
   justify-content: space-around;
   position: absolute;
   right: 0;
@@ -107,4 +109,93 @@ body {
 
 #header a:hover {
   text-decoration: underline;
+}
+
+#advanced-text {
+  color: #f28b82;
+  font-size: 1rem;
+  margin-left: 2rem;
+  font-weight: 100;
+}
+
+#advanced-header {
+  box-shadow: -1px 5px 0px -4px rgba(252, 252, 252, 0.88);
+  -webkit-box-shadow: -1px 5px 0px -4px rgba(252, 252, 252, 0.88);
+  -moz-box-shadow: -1px 5px 0px -4px rgba(252, 252, 252, 0.88);
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#index-images-header {
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+#advanced-main-container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+#advanced-main-container #find-with-text {
+  font-size: 1rem;
+}
+
+#advanced-box-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+}
+
+#advanced-box-container p {
+  display: inline-block;
+}
+
+#advanced-form-container {
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#advanced-search-submit {
+  width: 7rem;
+  align-self: flex-end;
+  right: 0;
+}
+
+.advanced-search-field {
+  color: white;
+  padding: 1rem;
+  height: 60%;
+  width: 75%;
+  border-radius: 0.125rem;
+  border-style: none;
+  background-color: var(--background);
+  border: 1px solid white;
+  transition: 0.5s;
+  outline: none;
+}
+
+.advanced-search-field:focus {
+  border: 1px solid rgb(101, 147, 206);
+}
+
+#advanced-search-submit {
+  width: 10rem;
+  height: 2rem;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 0.125rem;
+  border-style: none;
+  background-color: rgb(116, 163, 224);
 }

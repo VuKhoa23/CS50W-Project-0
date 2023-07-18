@@ -8,6 +8,35 @@
     <title>Goole Search</title>
   </head>
   <body>
-    <h1>Advanced page</h1>
+    <div id="advanced-header">
+      <h5 id="advanced-text">Google Advanced Search</h5>
+      <div id="header">
+        <a href="./index.html">Home</a>
+        <a href="./advanced.html">Google Advanced</a>
+      </div>
+    </div>
+
+    <div id="advanced-main-container">
+      <p id="find-with-text">Find pages with...</p>
+      <form id="advanced-form-container" action="https://google.com/search">
+        <div id="advanced-box-container">
+          <p>All these word</p>
+          <input class="advanced-search-field" type="text" name="as_q"> 
+        </div>
+        <div id="advanced-box-container">
+          <p>This exact word or phrase</p>
+          <input class="advanced-search-field" type="text" name="as_epq"> 
+        </div>
+        <div id="advanced-box-container">
+          <p>Any of these word</p>
+          <input class="advanced-search-field" type="text" name="as_oq"> 
+        </div>
+        <div id="advanced-box-container">
+          <p>None of these word</p>
+          <input class="advanced-search-field" type="text" name="as_eq"> 
+        </div>
+        <input id="advanced-search-submit" type="submit" value="Advanced Search">
+        </div>
+    </div>
   </body>
 </html>
