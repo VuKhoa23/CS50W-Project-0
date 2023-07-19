@@ -63,6 +63,7 @@ body {
 
 .google-logo {
   width: 20rem;
+  object-position: center bottom;
 }
 
 #input-text {
@@ -199,4 +200,16 @@ body {
   border-radius: 0.125rem;
   border-style: none;
   background-color: rgb(116, 163, 224);
+}
+
+#google-image-logo-container {
+  position: relative;
+}
+
+#images-text {
+  color: #4487f6;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  position: absolute;
+  bottom: 0.5rem;
+  right: 1rem;
 }
